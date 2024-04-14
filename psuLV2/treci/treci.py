@@ -37,6 +37,8 @@ plt.figure()
 plt.imshow(smanjena, cmap="gray")
 plt.title("smanjena slika")
 
+druga_cetvrtina = img[0 : img.shape[0], img.shape[1] // 4 : img.shape[1] // 2].copy()
+
 plt.show()
 
 
